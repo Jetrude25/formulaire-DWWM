@@ -1,0 +1,33 @@
+body {
+    background-color:#A9D7E9;
+    
+}
+h1{
+text-align: center;
+}
+form{
+    background-color:#f3f3f3 ;
+    width: 700px;
+    margin-left: 20%;
+    margin-right: 10px; 
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.nom{
+    margin-left: 30px;
+    margin-left: 30px;
+}
+.first{
+    margin-left:  40px; ;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+div{
+    margin-left: 30px;
+    margin: 30px; ;
+}
+.id{
+    margin-left: 10%;
+    margin-right:10% ;
+}

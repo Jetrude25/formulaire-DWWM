@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire DWWM</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <H1> Formulaire DWWM</H1>
+ <form method="POST"> 
+    <div class="first" id="first" >
+    <div class="nom">
+        Nom <br>
+    </div>
+    <div>
+        <input type="entrez votre nom" name="Nom" size="20" maxlength="20"  placeholder="Entrez votre nom" id="nom2"><br>
+    </div>
+    <div class="email">
+        Email <br>
+        <input type="entrez votre email" name="Email" size="50" maxlength="50" placeholder="Entrez votre email"id="email2"><br>
+    </div>
+    <div class="Satisfaction"> 
+        Indiquez votre satisfaction au cours de 1 à 10: <br>
+        <input type="text" name="indiquer votre satisfaction au cours de 1 à 10" size="20" maxlength="20" placeholder="numéro 1 à 10" id="satisfaction2"><br>
+    </div>
+
+        Qui est votre coach? <br>
+        <select name="liste" id="Coach2">
+            <option value="Birante">Birante</option>
+            <option value="Mamadou">Mamadou</option>
+            <option value="Malick">Malick</option>
+        </select>
+    </div>
+    <label for="text" class="second">  Décrivez votre expérience jusque là</label>
+    <div class="Expérience">
+        <textarea name="" id="aria2" cols="45" rows="6" placeholder="Décrivez votre expérience ici..."></textarea>
+    </div>
+    <button type="button" onclick="afficher()">vérifier</button>
+ </form>  
+         <p id="nom"></p>
+         <p id="email"></p>
+         <p id="satisfaction"></p>
+         <p id="coach"></p>
+         <p id="aria"></p>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
